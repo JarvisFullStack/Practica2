@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainSite.master.cs" Inherits="Estudiantes.UI.MainSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title></title>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<nav class="menu">
+			<ul>
+				<li><a href="Registros/rEstudianteMateria.aspx">R Usuario - Materia</a></li>
+				<li><a href="#">Seleccion Materia</a></li>
+				<li><a href="#">C Usuario</a></li>
+			</ul>
+		</nav>
+		<div>
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+	</form>
+</body>
+</html>
